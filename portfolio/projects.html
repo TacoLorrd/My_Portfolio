@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Kayden's projects — a collection of web development work, coding experiments, and designs." />
+  <title>Projects | Kayden</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== NAV ===== -->
+  <nav>
+    <div class="container nav-inner">
+      <a href="index.html" class="nav-logo">Kayden</a>
+      <button class="nav-toggle" aria-label="Toggle menu" onclick="toggleNav()">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="projects.html" class="active">Projects</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html" class="nav-contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ===== PAGE HEADER ===== -->
+  <section class="page-header">
+    <div class="container">
+      <p class="section-label">Page Header</p>
+      <h1>My Projects</h1>
+      <p>A collection of work I've built — coding, web apps, and experiments.</p>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS GRID ===== -->
+  <section class="projects-section">
+    <div class="container">
+      <div class="projects-grid">
+
+        <!-- Card 1 -->
+        <article class="project-card fade-in">
+          <div class="card-img">
+            <div class="placeholder-box" style="height:200px;">
+              <svg viewBox="0 0 400 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0" x2="400" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+                <line x1="400" y1="0" x2="0" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Project 1 Title</h3>
+            <p>Short description — what it does and what it uses.</p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <a href="#" class="view-link">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="project-card fade-in">
+          <div class="card-img">
+            <div class="placeholder-box" style="height:200px;">
+              <svg viewBox="0 0 400 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0" x2="400" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+                <line x1="400" y1="0" x2="0" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Project 2 Title</h3>
+            <p>Short description — what it does and what it uses.</p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <a href="#" class="view-link">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="project-card fade-in">
+          <div class="card-img">
+            <div class="placeholder-box" style="height:200px;">
+              <svg viewBox="0 0 400 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0" x2="400" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+                <line x1="400" y1="0" x2="0" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Project 3 Title</h3>
+            <p>Short description — what it does and what it uses.</p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <a href="#" class="view-link">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="project-card fade-in">
+          <div class="card-img">
+            <div class="placeholder-box" style="height:200px;">
+              <svg viewBox="0 0 400 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0" x2="400" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+                <line x1="400" y1="0" x2="0" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Project 4 Title</h3>
+            <p>Short description — what it does and what it uses.</p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <a href="#" class="view-link">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="project-card fade-in">
+          <div class="card-img">
+            <div class="placeholder-box" style="height:200px;">
+              <svg viewBox="0 0 400 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0" x2="400" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+                <line x1="400" y1="0" x2="0" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Project 5 Title</h3>
+            <p>Short description — what it does and what it uses.</p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <a href="#" class="view-link">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="project-card fade-in">
+          <div class="card-img">
+            <div class="placeholder-box" style="height:200px;">
+              <svg viewBox="0 0 400 200" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                <line x1="0" y1="0" x2="400" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+                <line x1="400" y1="0" x2="0" y2="200" stroke="rgba(0,0,0,0.1)" stroke-width="1.5"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+          </div>
+          <div class="card-body">
+            <h3>Project 6 Title</h3>
+            <p>Short description — what it does and what it uses.</p>
+            <div class="card-footer">
+              <div class="tags">
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">JS</span>
+              </div>
+              <a href="#" class="view-link">View Project →</a>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <section class="cta-banner">
+    <div class="container cta-inner">
+      <h2>Interested in working together?</h2>
+      <a href="contact.html" class="btn btn-primary">Contact Me</a>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2026 Kayden. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
